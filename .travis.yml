@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-  - "0.12"
-  - "0.11"
-  - "0.10"
-  - "0.8"
-  - "0.6"
-  - "iojs"
-  - "iojs-v1.0.4" 
+- '0.10'
+env:
+- NODE_ENV=development
+notifications:
+  hipchat:
+    rooms:
+      secure: Cjcurj4hTNqR/2bPaFS3QlKOJQx4IhD7LmE1HhTHlTZx7yV9wBoZkFl4Y25AdJrkNB33FbTVR0YoV5X9qHCiGAyF1mfxHLoux0qPbtgQcNQVnlTJoYV9zVSojFYFbKqywqiKN3XUKJGcAWqVzPvyPKO0QXMhPxKgQQ/Ajpz/p1ivMbK4DBsjlRTn4BxkB9j4rBTmwc/ITCgZSJD6KE2is0PZ0SohVQyM/rGuvfm6bDOOanMDTNYgH1v0M0KKcBNg2N8Lkuih97YsVL1I8lNbtSoUV7o2yTSVcmg0TFKJwOp7BJ8QgFy+It5AZg68fv0eSP9O1/vCOFG1r/422DGWxj6oDzbIJqzCceCGHk0sF22WZK9prvENwP3fawiQz0w9MbksRiUc23bZNCxZyfod+QfYkMwhULncoRI2pOpwkXmCreUdGV0SS86eVL9AHcr8DXi+EY9CPya2FFZsaRXTwUOxWYiUpHLuTQC3aCaC41mlCzS7jFTdoZ6XnOc6ai7XQklaxod3JBcf6Nix3U36dnIz/W07/S20ka8IFAq2eKU3rD0qPglS0J0ILc2RR/lXyu/3tbP7NhkCep5cZFwzsayxrLEcW0psqPq7O5x0S2t8Bl0vs2TqdLu3GzNDMverhPZlpwcN/IRC0IjXX/soH1THhLsm7HKI94RbrJ4fIzo=
